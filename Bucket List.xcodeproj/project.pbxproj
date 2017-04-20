@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A00C30211EA51A2B0020981F /* AddCategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00C30201EA51A2B0020981F /* AddCategoryTableViewController.swift */; };
+		A00C30231EA51F180020981F /* AddCategoryDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00C30221EA51F180020981F /* AddCategoryDelegate.swift */; };
 		A04693511EA3048400D0C153 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04693501EA3048400D0C153 /* AppDelegate.swift */; };
-		A04693531EA3048400D0C153 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04693521EA3048400D0C153 /* ViewController.swift */; };
+		A04693531EA3048400D0C153 /* BucketListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04693521EA3048400D0C153 /* BucketListViewController.swift */; };
 		A04693561EA3048400D0C153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04693541EA3048400D0C153 /* Main.storyboard */; };
 		A04693581EA3048400D0C153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A04693571EA3048400D0C153 /* Assets.xcassets */; };
 		A046935B1EA3048400D0C153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04693591EA3048400D0C153 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A00C30201EA51A2B0020981F /* AddCategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddCategoryTableViewController.swift; path = "Bucket List/AddCategoryTableViewController.swift"; sourceTree = "<group>"; };
+		A00C30221EA51F180020981F /* AddCategoryDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddCategoryDelegate.swift; path = "Bucket List/AddCategoryDelegate.swift"; sourceTree = "<group>"; };
 		A046934D1EA3048400D0C153 /* Bucket List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bucket List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A04693501EA3048400D0C153 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A04693521EA3048400D0C153 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A04693521EA3048400D0C153 /* BucketListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListViewController.swift; sourceTree = "<group>"; };
 		A04693551EA3048400D0C153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A04693571EA3048400D0C153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A046935A1EA3048400D0C153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +42,8 @@
 		A04693441EA3048400D0C153 = {
 			isa = PBXGroup;
 			children = (
+				A00C30201EA51A2B0020981F /* AddCategoryTableViewController.swift */,
+				A00C30221EA51F180020981F /* AddCategoryDelegate.swift */,
 				A046934F1EA3048400D0C153 /* Bucket List */,
 				A046934E1EA3048400D0C153 /* Products */,
 			);
@@ -55,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				A04693501EA3048400D0C153 /* AppDelegate.swift */,
-				A04693521EA3048400D0C153 /* ViewController.swift */,
+				A04693521EA3048400D0C153 /* BucketListViewController.swift */,
 				A04693541EA3048400D0C153 /* Main.storyboard */,
 				A04693571EA3048400D0C153 /* Assets.xcassets */,
 				A04693591EA3048400D0C153 /* LaunchScreen.storyboard */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A04693531EA3048400D0C153 /* ViewController.swift in Sources */,
+				A04693531EA3048400D0C153 /* BucketListViewController.swift in Sources */,
 				A04693511EA3048400D0C153 /* AppDelegate.swift in Sources */,
+				A00C30231EA51F180020981F /* AddCategoryDelegate.swift in Sources */,
+				A00C30211EA51A2B0020981F /* AddCategoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +310,7 @@
 				A04693611EA3048400D0C153 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
